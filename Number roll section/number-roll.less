@@ -1,0 +1,42 @@
+.interactive-statistic-section {
+    .section-heading {
+        h2{
+            text-align: center;
+        }
+        @media (max-width: 640px) {
+            margin-bottom: 1em;
+        }
+    }
+    .interactive-numb-inner-wrapper {
+        display: flex;
+        @media (max-width: 640px) {
+            flex-direction: column;
+            align-items: center;
+        }
+        .milestone-outer-wrapper {
+            flex-basis: 33.333333%;
+            width: 33.333333%;
+            text-align: center;
+            &:not(:last-child) {
+                @media (max-width: 640px) {
+                    padding-bottom: 2rem;
+                }
+            }
+            @media (max-width: 640px) {
+                flex-basis: 100%;
+                width: 100%;
+            }
+            .number {
+                span {
+                    font-size: 45px;
+                    color: #ff6c65;
+                    font-family: "FortCond-Extrabold";
+                }
+            }
+            .subject p {
+                font-family: "MaisonNeue-Mono";
+                text-transform: capitalize;
+            }
+        }
+    }
+}

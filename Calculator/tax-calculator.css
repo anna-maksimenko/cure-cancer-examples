@@ -1,0 +1,131 @@
+.dropdown {
+  border-radius: 0;
+  padding: 0;
+  height: 2.8125rem;
+}
+.dropdown:focus {
+  outline: none;
+}
+.dropdown .select2-selection__rendered {
+  line-height: 2.8125rem;
+  padding-left: 9px;
+  text-align: left;
+  font-family: "MaisonNeue-Book";
+  color: #333333;
+}
+.dropdown .select2-selection__arrow {
+  top: 0;
+  height: 2.8125rem;
+  right: 7px;
+}
+.tax-calculator-form-outer-wrapper {
+  max-width: 432px;
+  margin: 0 auto;
+  border: 1px solid #d5d5d5;
+  border-radius: 9px;
+}
+.tax-calculator-form-outer-wrapper .tax-calculator-form-inner-wrapper {
+  padding: 1.875rem 1.25rem;
+}
+.tax-calculator-form-outer-wrapper .tax-calculator-form-inner-wrapper form.tax-calculator label {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.875rem;
+}
+.tax-calculator-form-outer-wrapper .tax-calculator-form-inner-wrapper form.tax-calculator .currency-symbol {
+  display: inline-block;
+  position: absolute;
+  top: 55%;
+  left: 10px;
+  font-size: 16px;
+}
+.tax-calculator-form-outer-wrapper .tax-calculator-form-inner-wrapper form.tax-calculator .tax-error-cont {
+  margin-bottom: 6px;
+}
+.tax-calculator-form-outer-wrapper .tax-calculator-form-inner-wrapper form.tax-calculator .tax-error-cont .field-error {
+  color: #ff6c65;
+}
+.tax-calculator-form-outer-wrapper .tax-calculator-form-inner-wrapper form.tax-calculator input[type="text"] {
+  font-size: 1rem;
+  color: #333333;
+  border: 1px solid #d5d5d5;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  box-sizing: border-box;
+  height: 45px;
+  padding-left: 20px;
+  margin-top: 6px;
+}
+.tax-calculator-form-outer-wrapper .tax-calculator-form-inner-wrapper form.tax-calculator input[type="text"]:focus {
+  outline: none;
+}
+.tax-calculator-form-outer-wrapper .tax-calculator-form-inner-wrapper form.tax-calculator .donation-income-fieldset {
+  display: flex;
+  margin: 0 0 6px -1%;
+}
+@media (max-width: 640px) {
+  .tax-calculator-form-outer-wrapper .tax-calculator-form-inner-wrapper form.tax-calculator .donation-income-fieldset {
+    flex-direction: column;
+    margin: 0;
+  }
+}
+.tax-calculator-form-outer-wrapper .tax-calculator-form-inner-wrapper form.tax-calculator .donation-income-fieldset label {
+  flex-basis: 50%;
+  width: 50%;
+  margin-left: 1%;
+  margin-bottom: 6px;
+}
+@media (max-width: 640px) {
+  .tax-calculator-form-outer-wrapper .tax-calculator-form-inner-wrapper form.tax-calculator .donation-income-fieldset label {
+    flex-basis: 100%;
+    width: 100%;
+    margin: 0 0 6px 0;
+  }
+}
+.tax-calculator-form-outer-wrapper .tax-calculator-form-inner-wrapper form.tax-calculator .donation-income-fieldset .select2-container {
+  width: 100%!important;
+}
+.tax-calculator-form-outer-wrapper .tax-calculator-form-inner-wrapper form.tax-calculator .donation-income-fieldset .select2-container .select2-selection--single {
+  border-radius: 0;
+  padding: 0;
+  height: 2.8125rem;
+  font-size: 1rem;
+  border: 1px solid #d5d5d5;
+  margin-top: 6px;
+}
+.tax-calculator-form-outer-wrapper .tax-calculator-form-inner-wrapper form.tax-calculator .donation-income-fieldset .select2-container .select2-selection--single:focus {
+  outline: none;
+}
+.tax-calculator-form-outer-wrapper .tax-calculator-form-inner-wrapper form.tax-calculator .donation-income-fieldset .select2-container .select2-selection--single .select2-selection__rendered {
+  line-height: 2.8125rem;
+  padding-left: 9px;
+  text-align: left;
+  font-family: "MaisonNeue-Book";
+  color: #333333;
+}
+.tax-calculator-form-outer-wrapper .tax-calculator-form-inner-wrapper form.tax-calculator .donation-income-fieldset .select2-container .select2-selection--single .select2-selection__arrow {
+  top: 0;
+  height: 2.8125rem;
+  right: 7px;
+}
+@media (max-width: 375px) {
+  .tax-calculator-form-outer-wrapper .tax-calculator-form-inner-wrapper form.tax-calculator .donation-income-fieldset .select2-container .select2-selection--single {
+    font-size: 0.875;
+  }
+}
+.tax-calculator-form-outer-wrapper .tax-calculator-form-inner-wrapper form.tax-calculator .donation-income-fieldset .select2-container .select2-selection--single .select2-selection__arrow {
+  top: 6px;
+}
+.tax-calculator-form-outer-wrapper .tax-calculator-form-inner-wrapper form.tax-calculator .monthly-donation-cont {
+  margin-bottom: 0.5rem;
+}
+.tax-calculator-form-outer-wrapper .tax-calculator-form-inner-wrapper form.tax-calculator .monthly-donation-cont label {
+  display: inline-block;
+  margin-left: 7px;
+}
+.tax-calculator-form-outer-wrapper .tax-calculator-form-inner-wrapper .disclaimer > p {
+  font-size: 0.8125rem;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
