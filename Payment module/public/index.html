@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset='utf8'>
+	<meta name='viewport' content='width=device-width'>
+
+	<title>Svelte app</title>
+
+	<link rel='icon' type='image/png' href='/favicon.png'>
+	<link rel='stylesheet' href='/global.css'>
+	<link rel='stylesheet' href='/svelte-module.css'>
+	<script src="https://js.stripe.com/v3/"></script>
+</head>
+
+<body>
+	<script id="svelte-module-settings-script">
+		window.moduleSettings = {
+			defaultCurrency: 'CNY',
+			defaultAmount: 1700,
+			defaultInterval: 'monthly',
+			paymentTypeSelection: true,
+			processingCopy: "Yes! I want to maximize my donation and cover the 2% processing fee",
+			currenciesArr: [{
+				name: 'AUD',
+				symbol: '$',
+				flagCode: 'au',
+				defaultValues: [
+					'25000',
+					'10000',
+					'7500',
+					'5000',
+					'2500'
+				],
+				defaultAmount: 2000
+			},
+			{
+				name: 'CNY',
+				symbol: '¥',
+				flagCode: 'cn',
+				defaultValues: [
+					'120000',
+					'80000',
+					'60000',
+					'40000',
+					'20000'
+				],
+				defaultAmount: 2000
+			},
+			{
+				name: 'EUR',
+				symbol: '€',
+				flagCode: 'eu',
+				defaultValues: [
+					'15000',
+					'7500',
+					'5000',
+					'3000',
+					'1500'
+				],
+				defaultAmount: 2000
+			},
+			{
+				name: 'GBP',
+				symbol: '£',
+				flagCode: 'gb',
+				defaultValues: [
+					'15000',
+					'7500',
+					'5000',
+					'2500',
+					'1000'
+				],
+				defaultAmount: 2000
+			},
+			{
+				name: 'HKD',
+				symbol: '$',
+				flagCode: 'hk',
+				defaultValues: [
+					'100000',
+					'50000',
+					'30000',
+					'25000',
+					'10000'
+				],
+				defaultAmount: 2000
+			},
+			{
+				name: 'NZD',
+				symbol: '$',
+				flagCode: 'nz',
+				defaultValues: [
+					'25000',
+					'10000',
+					'7500',
+					'5000',
+					'2500'
+				],
+				defaultAmount: 2000
+			},
+			{
+				name: 'SGD',
+				symbol: '$',
+				flagCode: 'sg',
+				defaultValues: [
+					'25000',
+					'10000',
+					'7500',
+					'5000',
+					'2500'
+				],
+				defaultAmount: 2000
+			},
+			{
+				name: 'USD',
+				symbol: '$',
+				flagCode: 'us',
+				defaultValues: [
+					'25000',
+					'10000',
+					'7500',
+					'5000',
+					'3000'
+				],
+				defaultAmount: 2000
+			},
+			]
+		}
+	</script>
+	<div id="svelte-module"></div>
+	<script src='/svelte-module.js'></script>
+</body>
+</html>
