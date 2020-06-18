@@ -6,7 +6,7 @@
 - Reusable components across the application
 - Two different style modes for the module (embedded and banner mode)
 - Make components possible to inherit website theme styles (to reduce code base and amount of integration work to be done)
-- Screen change custom animation based on screen order with possibility to easily upgrade/adjust it (link svelte-stripe-donation-module/src/components/Screen.svelte)
+- Screen change custom animation based on screen order with possibility to easily upgrade/adjust it ([file reference](https://github.com/anna-maksimenko/cure-cancer-examples/blob/master/Payment%20module/src/components/Screen.svelte))
 
 ### Setup:
 - [Svelte](https://svelte.dev/)
