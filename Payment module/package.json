@@ -13,7 +13,7 @@
     "rollup-plugin-svelte": "^5.1.0",
     "rollup-plugin-terser": "^4.0.4",
     "sirv-cli": "^0.4.4",
-    "svelte": "^3.8.0",
+    "svelte": "^3.49.0",
     "svelte-preprocess": "^2.15.1",
     "svelte-select": "^2.1.0"
   },
